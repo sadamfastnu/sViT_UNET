@@ -1,0 +1,3 @@
+!pip install monai
+from monai.losses import DiceFocalLoss
+loss = DiceFocalLoss()
